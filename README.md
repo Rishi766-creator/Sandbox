@@ -9,6 +9,10 @@ A full-featured, in-browser integrated development environment for building and 
 
 ---
 
+LiveLink:https://sandbox-eight-self.vercel.app/
+
+---
+
 ## Table of contents
 
 - [Project overview](#project-overview)
@@ -426,11 +430,7 @@ Copy `.env.example` to `.env` for local overrides:
 - [ ] Refresh keeps files (`localStorage`)
 - [ ] esm.sh import works over HTTPS
 
----
 
-## License
-
-This project is private (`"private": true` in `package.json`). Add a license file if you plan to open-source it.
 
 ---
 

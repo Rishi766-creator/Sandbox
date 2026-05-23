@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ide-bg: #1e1e1e;
+  --color-ide-panel: #252526;
+  --color-ide-border: #2d2d2d;
+  --color-ide-muted: #858585;
+  --color-ide-accent: #007acc;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  body {
+    @apply bg-ide-bg text-[#cccccc] antialiased;
+    font-family:
+      'Segoe UI',
+      system-ui,
+      -apple-system,
+      Roboto,
+      sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  ::selection {
+    background: rgba(0, 122, 204, 0.45);
+    color: #ffffff;
+  }
+}
